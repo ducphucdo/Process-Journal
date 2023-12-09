@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 8</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Rubik:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="weeks-section">
+        <div class="weeks-close hover-target" onclick="window.location.href='/index.html'"></div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <h1>Week 8</h1>
+                </div>
+                <div class="col-12 mt-3 text-center">
+                    <p><span>Postproduction and Colour</span></p>
+                </div>
+
+
+                <div class="col-12" style="padding-bottom: 5rem;">
+                    <span class="image" style="display: flex; justify-content: center;">
+                        <img src="/images/8-1.png" alt="" style="width: 40vw;" />
+                    </span>
+
+                    <blockquote>
+                        Now it’s time to bring these footages
+                        to life by giving them a more vibrant
+                        colours and more saturation.
+                    </blockquote>
+                    <blockquote>
+                        Colours can be used to guide the
+                        audience's attention and reinforce
+                        the narrative. Filmmakers may use
+                        contrasting colours to draw attention
+                        to specific elements or desaturate
+                        colours during reflective or sombre
+                        moments to enhance the gravity of
+                        the subject matter.
+                    </blockquote>
+                </div>
+
+                <div class="col-12" style="padding-bottom: 5rem;">
+                    <span class="image" style="display: flex; justify-content: center;">
+                        <img src="/images/8-2.png" alt="" />
+                    </span>
+
+                    <ul class="col-12">
+                        <li>
+                            By fine-tuning colours, we can achieve a polished and professional
+                            appearance, elevating the visual quality of the production and making it more
+                            engaging for the audience
+                        </li>
+                        <li>
+                            Here is my node tree in Davinci Resolve, from left to right my node are ”White
+                            Balance”, “PreLog”, “Log” and to parallel nodes are “Post Log”
+                        </li>
+                        <p>
+                            <strong>White Balance:</strong> Adjust the temperature of the image (can be lean toward cold
+                            or
+                            warm)
+                        </p>
+                        <p>
+                            <strong>PreLog:</strong> Correcting the exposure before applying “Colour Space Transform”
+                            into
+                            the “Log” node
+                        </p>
+                        <p>
+                            <strong>Log:</strong> Contain ”Colour Space Transform” (S-log3. Gammut converted to Rec.709)
+                        </p>
+                        <p>
+                            <strong>PostLog:</strong> Further adjustment with a more advanced colour grade, in this
+                            case, I
+                            added green for the leaves and a bit more saturation.
+                        </p>
+                    </ul>
+                </div>
+
+                <div class="col-12 text-center style=" padding-bottom: 5rem;">
+                    <span class="image" style="display: flex; justify-content: center;">
+                        <img src="/images/8-3.png" alt="" style="width: 40vw;" />
+                    </span>
+                    <p>Result</p>
+                </div>
+
+            </div>
+            <div class="col-12">
+                <h2>Variation</h2>
+                <p>I tried out with different style of
+                    grades in my footages, check them
+                    out down below</p>
+            </div>
+
+            <div class="col-12" style="display: flex; justify-content: center;">
+                <span class="image">
+                    <img src="/images/8-4.png" alt="" style="width: 30vw;" />
+                    <img src="/images/8-5.png" alt="" style="width: 30vw;" />
+                    <img src="/images/8-6.png" alt="" style="width: 30vw;" />
+                </span>
+            </div>
+            <p class="strong" style="text-align: justify; text-justify: inter-word; padding-bottom: 5rem;">
+                Colour grading is the art of manipulating the colours in a
+                film to enhance the visual experience and convey specific
+                moods, emotions, and themes. It is a crucial part of the
+                filmmaking process, and it can profoundly impact the
+                overall tone and style of a film.
+            </p>
+            <div class="col-12" style="display: flex; justify-content: center;">
+                <iframe src="https://youtube.com/embed/rS8kWqEPpFg?feature=share" frameborder="0" height="800"
+                    width="500"></iframe>
+            </div>
+        </div>
+
+
+
+
+    </div>
+    </div>
+
+    <div class='cursor' id="cursor"></div>
+    <div class='cursor2' id="cursor2"></div>
+    <div class='cursor3' id="cursor3"></div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="/script.js"></script>
+
+</html>
